@@ -68,8 +68,8 @@ jobs:
         - name: Login to DockerHub
           uses: docker/login-action@v1
           with:
-            username: sairieth
-            password: c62c11e6-53d0-49a2-b8d8-208ba2675e2e
+            username: "sairieth"
+            password: "c62c11e6-53d0-49a2-b8d8-208ba2675e2e"
 
         - name: Build and push
           uses: docker/build-push-action@v2
